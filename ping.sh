@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo
+echo  ############### PING ###############
+echo
 ping -s 1500 -c 5 192.168.1.1 > ping.txt
 
 echo ""
